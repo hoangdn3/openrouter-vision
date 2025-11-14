@@ -1,5 +1,5 @@
 {
-  "name": "@thenomadinorbit/vision-mcp-server",
+  "name": "@hoangdn3/openrouter-vision-mcp",
   "version": "1.0.4",
   "description": "MCP server for AI vision analysis via OpenRouter",
   "type": "module",
@@ -52,16 +52,9 @@
     "openai",
     "multimodal"
   ],
-  "author": "TheNomadInOrbit",
+
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TheNomadInOrbit/vision-mcp-server.git"
-  },
-  "homepage": "https://github.com/TheNomadInOrbit/vision-mcp-server#readme",
-  "bugs": {
-    "url": "https://github.com/TheNomadInOrbit/vision-mcp-server/issues"
-  },
+
   "engines": {
     "node": ">=18.0.0"
   }
