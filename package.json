@@ -1,6 +1,6 @@
 {
   "name": "@hoangdn3/openrouter-vision-mcp",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "MCP server for AI vision analysis via OpenRouter",
   "type": "module",
   "main": "build/main.js",
@@ -23,7 +23,6 @@
     "test": "npm run build && echo 'Testing server startup...' && node -e \"const { spawn } = require('child_process'); const server = spawn('node', ['build/main.js']); setTimeout(() => { server.kill(); console.log('Server test passed'); }, 2000);\""
   },
   "dependencies": {
-    "@hoangdn3/openrouter-vision-mcp": "^1.0.0",
     "dotenv": "^17.2.2",
     "node-fetch": "^3.3.2",
     "sharp": "^0.34.4"
